@@ -1,0 +1,43 @@
+class Candidate: 
+    name=''
+    political_party=''
+    vote_1=''
+    vote_2=''
+    vote_3=''
+    ##fin atributos##
+    
+    ##inicio metodos##
+    
+    def __init__(self,name,political_party,vote):
+        self.name=name
+        self.political_party=political_party
+        self.vote=vote
+        
+    print("--ingrese el voto a uno de los tres candidatos--")   
+    print("1)kast")
+    print("2)boric")
+    print("3)piñera")
+    
+    if(p=1):
+        print()
+    
+
+    
+    def addition_1(self):
+        self.vote = vote + 1
+        
+names=[]
+votes=[]
+
+size=3
+
+for i in range(size):
+    print("ingrese los datos de la persona",i + 1)
+    name=input("nombre:")
+    vote=input("voto:")
+    
+#for i in range(size):
+    #print("mostrando los datos de la persona",i +1)
+    
+    #print("nombre:",names[i])
+    #print("voto:",votes[i])
